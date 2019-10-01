@@ -53,13 +53,24 @@ table {
 
 /****************FIN RESET**********************/
 
+@font-face {
+    font-family: fuenteCaireles;
+    src: url("../fonts/fuenteCaireles.otf");
+}
+
 html, body{
 	width: 100%;
+	font-family: fuenteCaireles;
 }
 
 /************HEADER*************/
 header{ 
-	background-color: #b3ffa5;
+	background-color: white;
+	padding-bottom: 0.5%;
+}
+
+.clear{
+	clear:both;
 }
 
 	.headerEntero{
@@ -107,55 +118,85 @@ header{
 				}
 		.headerDerecho{
 			display: inline-block;
-			width: 5%;
+			width: 16%;
 			height: 100%;
 			vertical-align: top;
 			padding: 1% 0;
+			text-align: right;
 		}
 		
 		.headerDerecho img{
+			float: right;
 			display: block;
-			margin:auto;
-			
-			
 		}
 	
+main{
+	/*background-color: #aedcfe;*/
+	background-image: url("../img/seccion2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+	.sectionNosotros{
+		background-image: url("../img/seccion1.jpg");
+	}
 	
-	
-	
-	
-	
-	
-
-	
-	
-	
-		/*
-		.headerIzquierda{
-			background-color: #87df77;
-			width: 100%;
+		.contenidoNosotros{
+			max-width: 1170px;
+			margin: 0 auto;
+			/*background-color: #deeffc;*/
+			text-align: center;
+			padding-top: 3%;
+			padding-bottom: 6%;
 		}
 		
-			.headerIzquierda{
-				display: inline-block;
-				width: 20%;
-			}
-		
-			.logoHeaderSuperior img{
-				width: 100%;
-			}
-			
-			.textoHeaderSuperior{
-				display:inline-block;
-				width: 50%;
-				
-			}
-		
-		.headerInferior{
-			display:inline-block;
+		.textoContNosotros{
+			font-size: 96px;
+			width: 80%;
+			margin: 0 auto;
+			padding: 3% 0;
+			color:white;
 		}
-		*/
+		
+		.botonContNosotros{
+			font-size: 18px;
+			font-weight: bold;
+			width: 10%;
+			margin: 0 auto;
+			padding: 1% 6%;
+			background-color: black;
+			color:white;
+		}
 
-
-
-
+	.sectionServiciosPrincipal{
+		background-color: transparent;
+	}
+	
+	.sectionPatrimonioMundial{
+		background-color: white;
+	}
+		
+		.contenidoPatrimonio{
+			max-width: 1170px;
+			margin: 0 auto;
+			text-align: center;
+			padding: 1% 0;
+		}
+	
+		.textoPatrimonio{
+			font-size: 24px;
+			width: 80%;
+			margin: 0 auto;
+			padding: 3% 0;
+		}
+	
+	.sectionGrupoServicios{
+		background-color: white;
+	}
+	
+	footer{
+		height: 500px;
+	}
+	
+	
