@@ -80,20 +80,59 @@
 				</section>
 				
 				<section class="sectionGrupoServicios">
-					<div class="subgrupoServicios">
-						Grupo1
+					<div class="contenidoSectionGrupoServicios">
+						<div class="subgrupo">
+							<div class="contenidoSubgrupo">
+								<div class="textoSubgrupo">
+									<p>La tradicion hecha arte</p>
+								</div>
+								<div class="botonSubgrupo">
+									<p>Leer más</p>
+								</div>
+							</div>
+						</div><!--
+					 --><div class="subgrupo">
+							<div class="contenidoSubgrupo">
+								<div class="textoSubgrupo">
+									<p>Artesanía</p>
+								</div>
+								<div class="botonSubgrupo">
+									<p>Leer más</p>
+								</div>
+							</div>
+						</div><!--
+					 --><div class="subgrupo">
+							<div class="contenidoSubgrupo">
+								<div class="textoSubgrupo">
+									<p>Cultura y patrimonio</p>
+								</div>
+								<div class="botonSubgrupo">
+									<p>Leer más</p>
+								</div>
+							</div>
+						</div><!--
+					 --><div class="subgrupo">
+							<div class="contenidoSubgrupo">
+								<div class="textoSubgrupo">
+									<p>Bordados y moda</p>
+								</div>
+								<div class="botonSubgrupo">
+									<p>Leer más</p>
+								</div>
+							</div>
+						</div>
 					</div>
-					
-					<div class="subgrupoServicios">
-						Grupo2
-					</div>
-					
-					<div class="subgrupoServicios">
-						Grupo3
-					</div>
-					
-					<div class="subgrupoServicios">
-						Grupo4
+
+				</section>
+				
+				<section class="sectionCursosVideo">
+					<div class="contenidoSectionCursosVideo">
+						<div class="videoBordado">
+							 <iframe width="610" height="343" src="https://www.youtube.com/embed/RR5PW1ceUs8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="contenidoInfoCursosBordado">
+						
+						</div>
 					</div>
 				</section>
 			</article>

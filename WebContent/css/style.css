@@ -193,7 +193,84 @@ main{
 	
 	.sectionGrupoServicios{
 		background-color: white;
+		width: 100%;
+		height: 25vw;
+		padding-bottom: 2%;
 	}
+		.contenidoSectionGrupoServicios{
+			width: 96%;
+			margin: 0 auto;
+			height: 100%;
+			max-height: 430px;
+			padding: 3% 0;
+		}
+
+		.subgrupo{
+			display: inline-block;
+			width: 24.5%;
+			background-color: red;
+			margin: 0 0.25%;
+			/*max-width: 430px;*//*Sin esto se reparte mejor entre los extremos*/
+			height: 100%;
+			border-radius: 9%;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:first-child{
+			background-image: url("../img/tradicionImg.jpg");
+			background-position:center;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(2){
+			background-image: url("../img/artesaniaImg.jpg");
+			background-position:center;
+			background-size: cover;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(3){
+			background-image: url("../img/bordadoImg.jpg");
+			background-position:center;
+			background-size: cover;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:last-child{
+			background-image: url("../img/modaImg.jpg");
+			background-position:center;
+			background-size: cover;
+		}
+		
+			.contenidoSubgrupo{
+				position: relative;
+				top: 50%;
+				text-align: center;
+			}
+			
+			.textoSubgrupo{
+				font-size: 24px;
+				font-weight: bold;
+			}
+			
+			.botonSubgrupo{
+				margin: 0 auto;
+				margin-top: 5%;
+				padding: 3% 0;
+				width: 40%;
+				background-color: black;
+				color: white;
+			}
+	.sectionCursosVideo{
+		width: 100%;
+		background-color: white;
+	}
+	
+	.contenidoSectionCursosVideo{
+		width: 80%;
+		margin: 0 auto;
+		padding: 3% 0;
+	}
+		
+		.videoBordado{
+			width: 50%;
+		}
 	
 	footer{
 		height: 500px;
