@@ -89,6 +89,7 @@ header{
 		
 		.headerCentro{
 			display: inline-block;
+			margin: 0 auto;
 			width: 60%;
 			vertical-align: top;
 			padding-left: 3%;
@@ -109,7 +110,6 @@ header{
 				.menuNavHeader ul li{
 					display: inline-block;
 					font-size: 20px;
-					
 				}
 				
 				.menuNavHeader ul li:not(:first-child){
@@ -122,14 +122,37 @@ header{
 			height: 100%;
 			vertical-align: top;
 			padding: 1% 0;
-			text-align: right;
+			text-align: center;
 		}
 		
+			.banderas{
+				padding-bottom: 5%;
+			}
+		
+			.banderaIdioma{
+				display: inline-block;
+				width: 40%;
+			}
+			
+			.banderaIdioma img{
+				max-height: 15px;
+			}
+			
+			.redesSociales{
+				padding: 9% 0;
+				vertical-align: bottom;
+			}
+			
+				.iconoRedSocial{
+					display: inline-block;
+					width: 15%;
+				}
+		/*
 		.headerDerecho img{
 			float: right;
 			display: block;
 		}
-	
+	*/
 main{
 	/*background-color: #aedcfe;*/
 	background-image: url("../img/seccion2.jpg");
@@ -195,7 +218,7 @@ main{
 		background-color: white;
 		width: 100%;
 		height: 25vw;
-		padding-bottom: 2%;
+		padding-bottom: 5%;
 	}
 		.contenidoSectionGrupoServicios{
 			width: 96%;
@@ -263,17 +286,171 @@ main{
 	}
 	
 	.contenidoSectionCursosVideo{
-		width: 80%;
+		width: 70%;
 		margin: 0 auto;
-		padding: 3% 0;
+		height: 30vw;
 	}
 		
 		.videoBordado{
+			display: inline-block;
 			width: 50%;
+			height: 80%;
+			vertical-align: middle;
+			background-color: red;
+			
 		}
+			.videoBordado iframe{
+				width: 100%;
+				height: 100%;
+			}
+		
+		.contenidoInfoCursosBordado{
+			display: inline-block;
+			width: 30%;
+			margin: 0 auto;
+			vertical-align: middle;
+			margin-left: 15%;
+		}
+		
+			.tituloInfoCursosBordado{
+				font-size: 36px;
+				font-weight: 700;
+				margin-bottom: 12%;
+				text-align: center;
+			}
+			
+			.textoInfoCursosBordado{
+				font-size: 26px;
+				margin-bottom: 15%;
+				text-align: center;
+			}
+			
+			.botonInfoCursosBordado{
+				width: 50%;
+				padding: 3%;
+				margin: 0 auto;
+				text-align: center;
+				color:white;
+				background-color: black;
+			}
 	
 	footer{
-		height: 500px;
+		background-image: url("../img/fondoFooter.jpg");
 	}
 	
-	
+		.contenidoFooter{
+			max-width: 1170px;
+			margin: 0 auto;
+			padding-top: 2%;
+			padding-bottom: 3%;
+			color: white;
+		}
+		
+		.tituloColumnaFooter{
+			padding-top: 4%;
+		}
+		
+			.logoCairelesFooter{
+				text-align: center;
+			}
+			
+			.logoCairelesFooter img{
+				max-width: 235px;
+				text-align: center;
+			}
+		
+			.fraseComunicate{
+				text-align: center;
+				padding: 2% 0;
+			}
+			
+			.columnaEnlaces{
+				display: inline-block;
+				width: 30%;
+				text-align: center;
+			}
+				
+				.contenidoColumnaEnlaces{
+					width: 60%;
+					margin: 0 auto;
+				}
+				
+					.opcionesColumnaEnlaces{
+						padding-top: 25px;
+					}
+					
+						.opcionesColumnaEnlaces p{
+							padding-bottom: 5px;
+						}
+			
+			.columnaContacto{
+				display: inline-block;
+				width: 30%;
+				text-align: center;
+				padding: 0 4%;
+				border-left: 1px solid;
+				border-left-color: white;
+				border-right: 1px solid;
+				border-right-color: white;
+			}
+			
+				.contenidoColumnaContacto{
+					width: 99%;
+					margin: 0 auto;
+				}
+				
+					.infoColumnaContacto{
+						padding-top: 25px;
+					}
+					
+						.infoColumnaContacto p{
+							padding-bottom: 5px;
+						}
+
+			.columnaLegal{
+				display: inline-block;
+				width: 30%;
+				text-align: center;
+			}
+			
+				.contenidoColumnaLegal{
+					width: 60%;
+					margin: 0 auto;
+				}
+				
+					.enlacesColumnaLegal{
+						padding-top: 25px;
+					}
+					
+						.enlacesColumnaLegal p{
+							padding-bottom: 5px;
+						}
+
+@media (max-width:1387px){
+	.parteSuperior{
+		font-size: 1.8541vw;
+	}
+}
+
+
+
+
+@media (max-width:1320px){
+	.menuNavHeader ul li{
+		font-size: 1.4417vw;
+	}
+}
+
+
+
+@media (max-width:1120px){
+	.textoContNosotros{
+		font-size: 8.27vw;
+	}
+}
+
+@media (max-width:1020px){
+	.headerDerecho{
+		width: 10%;
+	}
+}

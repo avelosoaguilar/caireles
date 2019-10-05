@@ -6,6 +6,7 @@
 <html>
 	<head>
 		<link href="./css/style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="ISO-8859-1">
 	<title>Caireles</title>
 	</head>
@@ -37,10 +38,34 @@
 				</div>
 				
 				<div class="headerDerecho">
-					<img alt="Idioma español" src="./img/iconEspana.png">
+					<div class="banderas">
+						<div class="banderaIdioma">
+							<img alt="Idioma español" src="./img/iconEspana.png">
+						</div><!--
+						--><div class="banderaIdioma">
+							<img alt="Idioma inglés" src="./img/iconIngles.jpg">
+						</div>
+					</div>
+					<div class="redesSociales">
+						<div class="iconoRedSocial">
+							<i class="fa fa-facebook"></i>
+						</div>
+						<div class="iconoRedSocial">
+							<i class="fa fa-twitter"></i>
+						</div>
+						<div class="iconoRedSocial">
+							<i class="fa fa-instagram"></i>
+						</div>
+						<div class="iconoRedSocial">
+							<i class="fa fa-youtube-play"></i>
+						</div>
+						<div class="iconoRedSocial">
+							<i class="fa fa-envelope"></i>
+						</div>
+					</div>
 				</div>
 				
-				<div class="clear"></div>
+<!-- 				<div class="clear"></div> -->
 			</div>
 		</header>
 		
@@ -128,10 +153,22 @@
 				<section class="sectionCursosVideo">
 					<div class="contenidoSectionCursosVideo">
 						<div class="videoBordado">
-							 <iframe width="610" height="343" src="https://www.youtube.com/embed/RR5PW1ceUs8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							 <iframe src="https://www.youtube.com/embed/RR5PW1ceUs8"></iframe>
 						</div>
-						<div class="contenidoInfoCursosBordado">
 						
+						<div class="contenidoInfoCursosBordado">
+							<div class="tituloInfoCursosBordado">
+								<p>Cursos de bordado</p>
+							</div>
+							
+							<div class="textoInfoCursosBordado">
+								<p>¿Quieres aprender a bordar?</p>
+								<p>Ponte en contacto con nosotros.</p>
+							</div>
+							
+							<div class="botonInfoCursosBordado">
+								<p>Más información</p>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -139,7 +176,62 @@
 		</main>
 		
 		<footer>
-		
+			<div class="contenidoFooter">
+				<div class="logoCairelesFooter">
+					<img alt="Logo Caireles" src="./img/logoFooter.png">
+				</div>
+			
+				<div class="fraseComunicate">
+					<p>Comunícate con nosotros e infórmate más sobre nuestra empresa y los productos y servicios que ofrecemos.</p>
+				</div>
+				
+				<div class="contenidoColumnas">
+					<div class="columnaEnlaces">
+						<div class="contenidoColumnaEnlaces">
+							<div class="tituloColumnaFooter">
+								<p>Enlaces</p>
+							</div>
+							<div class="opcionesColumnaEnlaces">
+								<p>Inicio</p>
+								<p>Quienes somos</p>
+								<p>Nuestros servicios</p>
+								<p>Eventos</p>
+								<p>Contacto</p>
+							</div>
+						</div>
+					</div><!--
+					
+					--><div class="columnaContacto">
+						<div class="contenidoColumnaContacto">
+							<div class="tituloColumnaFooter">
+								<p>Contacto</p>
+							</div>
+							<div class="infoColumnaContacto">
+								<p>Caireles</p>
+								<p>C/Van Dyck 21 - 37005 Salamanca</p>
+								<p>&nbsp</p>
+								<p>caireles@cairelessalamanca.com</p>
+								<p>Teléfono: +34 923 249 168</p>
+							</div>
+						</div>
+					</div><!--
+					
+					--><div class="columnaLegal">
+						<div class="contenidoColumnaLegal">
+							<div class="tituloColumnaFooter">
+								<p>Información legal</p>
+							</div>
+							<div class="enlacesColumnaLegal">
+								<p>Política de privacidad</p>
+								<p>Política de cookies</p>
+								<p>&nbsp</p>
+								<p>Diseño web: Caireles</p>
+								<p>&nbsp</p>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
 		</footer>
 		
 	</body>
