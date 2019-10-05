@@ -5,70 +5,23 @@
 
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link href="./css/style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="ISO-8859-1">
-	<title>Caireles</title>
+		<title>Caireles</title>
+	<script> 
+		$(function(){
+		  $(".headerEntero").load("header.html"); 
+		  $(".contenidoFooter").load("footer.html"); 
+		});
+	</script> 
 	</head>
 	<body>
-		<header>
-			<div class="headerEntero">
-			
-				<div class="headerIzquierda">
-					<img alt="Logo Caireles" src="./img/logo.png">
-				</div>
-				
-				<div class="headerCentro">
-					<div class="parteSuperior">
-						Artesanos bordadores. Bordados realizados a mano.
-					</div>
-					<div class="parteInferior">
-						<nav>
-							<div class="menuNavHeader">
-							<ul>
-								<li>Inicio</li>
-								<li>Quiénes somos</li>
-								<li>Nuestros servicios</li>
-								<li>Eventos</li>
-								<li>Contacto</li>
-							</ul>
-							</div>
-						</nav>
-					</div>
-				</div>
-				
-				<div class="headerDerecho">
-					<div class="banderas">
-						<div class="banderaIdioma">
-							<img alt="Idioma español" src="./img/iconEspana.png">
-						</div><!--
-						--><div class="banderaIdioma">
-							<img alt="Idioma inglés" src="./img/iconIngles.jpg">
-						</div>
-					</div>
-					<div class="redesSociales">
-						<div class="iconoRedSocial">
-							<i class="fa fa-facebook"></i>
-						</div>
-						<div class="iconoRedSocial">
-							<i class="fa fa-twitter"></i>
-						</div>
-						<div class="iconoRedSocial">
-							<i class="fa fa-instagram"></i>
-						</div>
-						<div class="iconoRedSocial">
-							<i class="fa fa-youtube-play"></i>
-						</div>
-						<div class="iconoRedSocial">
-							<i class="fa fa-envelope"></i>
-						</div>
-					</div>
-				</div>
-				
-<!-- 				<div class="clear"></div> -->
-			</div>
-		</header>
-		
+	<header>
+		<div class="headerEntero">
+		</div>
+	</header>
 		<main>
 			<article class="negocio">
 				<section class="sectionNosotros">
@@ -177,60 +130,6 @@
 		
 		<footer>
 			<div class="contenidoFooter">
-				<div class="logoCairelesFooter">
-					<img alt="Logo Caireles" src="./img/logoFooter.png">
-				</div>
-			
-				<div class="fraseComunicate">
-					<p>Comunícate con nosotros e infórmate más sobre nuestra empresa y los productos y servicios que ofrecemos.</p>
-				</div>
-				
-				<div class="contenidoColumnas">
-					<div class="columnaEnlaces">
-						<div class="contenidoColumnaEnlaces">
-							<div class="tituloColumnaFooter">
-								<p>Enlaces</p>
-							</div>
-							<div class="opcionesColumnaEnlaces">
-								<p>Inicio</p>
-								<p>Quienes somos</p>
-								<p>Nuestros servicios</p>
-								<p>Eventos</p>
-								<p>Contacto</p>
-							</div>
-						</div>
-					</div><!--
-					
-					--><div class="columnaContacto">
-						<div class="contenidoColumnaContacto">
-							<div class="tituloColumnaFooter">
-								<p>Contacto</p>
-							</div>
-							<div class="infoColumnaContacto">
-								<p>Caireles</p>
-								<p>C/Van Dyck 21 - 37005 Salamanca</p>
-								<p>&nbsp</p>
-								<p>caireles@cairelessalamanca.com</p>
-								<p>Teléfono: +34 923 249 168</p>
-							</div>
-						</div>
-					</div><!--
-					
-					--><div class="columnaLegal">
-						<div class="contenidoColumnaLegal">
-							<div class="tituloColumnaFooter">
-								<p>Información legal</p>
-							</div>
-							<div class="enlacesColumnaLegal">
-								<p>Política de privacidad</p>
-								<p>Política de cookies</p>
-								<p>&nbsp</p>
-								<p>Diseño web: Caireles</p>
-								<p>&nbsp</p>
-							</div>
-						</div>		
-					</div>
-				</div>
 			</div>
 		</footer>
 		
