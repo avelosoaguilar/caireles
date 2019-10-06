@@ -213,12 +213,17 @@ main{
 			margin: 0 auto;
 			padding: 3% 0;
 		}
+		
+		.logoPatrimonio{
+			max-width: 1170px;
+			margin: 0 auto;
+		}
 	
 	.sectionGrupoServicios{
 		background-color: white;
 		width: 100%;
 		height: 25vw;
-		padding-bottom: 5%;
+		padding-bottom: 4%;
 	}
 		.contenidoSectionGrupoServicios{
 			width: 96%;
@@ -280,21 +285,26 @@ main{
 				background-color: black;
 				color: white;
 			}
+			
+			.botonSubgrupo p{
+				font-size: 18px;
+			}
+			
 	.sectionCursosVideo{
 		width: 100%;
 		background-color: white;
 	}
 	
 	.contenidoSectionCursosVideo{
-		width: 70%;
+		width: 80%;
 		margin: 0 auto;
 		height: 30vw;
 	}
 		
 		.videoBordado{
 			display: inline-block;
-			width: 50%;
-			height: 80%;
+			width: 60%;
+			height: 90%;
 			vertical-align: middle;
 			background-color: red;
 			
@@ -309,7 +319,7 @@ main{
 			width: 30%;
 			margin: 0 auto;
 			vertical-align: middle;
-			margin-left: 15%;
+			margin-left: 5%;
 		}
 		
 			.tituloInfoCursosBordado{
@@ -333,6 +343,10 @@ main{
 				color:white;
 				background-color: black;
 			}
+				
+				.botonInfoCursosBordado p{
+					font-size: 18px;
+				}
 	
 	footer{
 		background-image: url("../img/fondoFooter.jpg");
@@ -352,9 +366,11 @@ main{
 		
 			.logoCairelesFooter{
 				text-align: center;
+				width: 100%;
 			}
 			
 			.logoCairelesFooter img{
+				width: 30%;
 				max-width: 235px;
 				text-align: center;
 			}
@@ -362,6 +378,11 @@ main{
 			.fraseComunicate{
 				text-align: center;
 				padding: 2% 0;
+				font-size: 20px;
+			}
+			
+			.contenidoColumnas{
+				font-size: 15px;
 			}
 			
 			.columnaEnlaces{
@@ -439,18 +460,110 @@ main{
 	.menuNavHeader ul li{
 		font-size: 1.4417vw;
 	}
+	
+	.textoSubgrupo{
+		font-size: 1.8181vw;
+	}
+	
+	.botonSubgrupo p{
+		font-size: 1.3636vw;
+	}
+	
+	.botonInfoCursosBordado p{
+		font-size: 1.3636vw;
+	}
 }
-
-
 
 @media (max-width:1120px){
 	.textoContNosotros{
 		font-size: 8.27vw;
 	}
+	
+	.tituloInfoCursosBordado{
+		font-size: 3.2143vw;
+	}
+	
+	.textoInfoCursosBordado{
+		font-size: 2.3214vw;
+	}
+	
+	.contenidoSectionCursosVideo{
+		width: 90%;
+	}
 }
 
 @media (max-width:1020px){
+	
+	.headerEntero{
+		max-width: 100%;
+	}
+	
+	.headerCentro{
+		width: 50%;
+	}
+	
 	.headerDerecho{
-		width: 10%;
+		width: 20%;
+	}
+	
+	.textoPatrimonio{
+		width: 90%;
+		font-size: 2.8529vw;
+	}
+	
+	.logoPatrimonio img{
+		width: 30.5098vw;
+	}
+	
+	.sectionGrupoServicios{
+		padding-bottom: 6%;
+	}
+	
+	.fraseComunicate{
+		padding: 4% 6%;
+	}
+}
+
+@media (max-width:970px){
+	
+	.contenidoColumnas{
+		font-size: 1.6494vw;
+	}
+}
+
+@media (max-width:820px){
+	.botonContNosotros{
+		font-size: 2.0951vw;
+	}
+	
+	.fraseComunicate{
+		font-size: 3.4390vw;
+	}
+}
+
+@media (max-width:775px){
+	
+	.contenidoColumnas{
+		font-size: 4.0494vw;
+	}
+	
+	.columnaEnlaces, .columnaContacto, .columnaLegal{
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+		border-left: none;
+		border-right: none;
+		border-top: 1px solid;
+		border-top-color: white;
+		padding: 0;
+		padding-bottom: 2%;
+	}
+	
+	.columnaLegal{
+		padding-bottom: 0;
+	}
+	
+	.logoCairelesFooter img{
+		width: 100%;
 	}
 }
