@@ -24,30 +24,30 @@
 	</header>
 		<main>
 			<article class="negocio">
-				<section class="sectionNosotros">
-					<div class="contenidoNosotros">
-						<div class="textoContNosotros">
+				<section id="sectionNosotros">
+					<div class="cajaSectionIndex1170">
+						<div class="textoSecInd1170">
 							<p>El arte del bordado hecho a mano</p>
 						</div>
-						<div class="botonContNosotros">
+						<div class="enlaceSecInd1170">
 							<p>Leer más</p>
 						</div>
 					</div>
 				</section>
 				
-				<section class="sectionServiciosPrincipal">
-					<div class="contenidoNosotros">
-						<div class="textoContNosotros">
+				<section id="sectionServPrincipal">
+					<div class="cajaSectionIndex1170">
+						<div class="textoSecInd1170">
 							<p>Manos que crean, manos que sueñan</p>
 						</div>
-						<div class="botonContNosotros">
+						<div class="enlaceSecInd1170">
 							<p>Leer más</p>
 						</div>
 					</div>
 				</section>
 				
-				<section class="sectionPatrimonioMundial">
-					<div class="contenidoPatrimonio">
+				<section id="sectionPatriMundial">
+					<div class="cajaSectionIndex1170">
 						<div class="textoPatrimonio">
 							<p>El patrimonio cultural inmaterial depende de aquellos cuyos conocimientos de las tradiciones, técnicas y costumbres se transmiten al resto de la comunidad, de generación en generación, o a otras comunidades.</p>
 						</div>
@@ -57,7 +57,7 @@
 					</div>
 				</section>
 				
-				<section class="sectionGrupoServicios">
+				<section id="sectionGrupoServicios">
 					<div class="contenidoSectionGrupoServicios">
 						<div class="subgrupo">
 							<div class="contenidoSubgrupo">
@@ -103,13 +103,13 @@
 
 				</section>
 				
-				<section class="sectionCursosVideo">
+				<section id="sectionCursosVideo">
 					<div class="contenidoSectionCursosVideo">
 						<div class="videoBordado">
 							 <iframe src="https://www.youtube.com/embed/RR5PW1ceUs8"></iframe>
-						</div>
+						</div><!--
 						
-						<div class="contenidoInfoCursosBordado">
+						--><div class="contenidoInfoCursosBordado">
 							<div class="tituloInfoCursosBordado">
 								<p>Cursos de bordado</p>
 							</div>
