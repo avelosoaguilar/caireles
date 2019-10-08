@@ -78,6 +78,10 @@ header{
 		margin: 0 auto;
 	}
 	
+	.headerEnteroMin{
+		display: none;
+	}
+	
 		.headerIzquierda{
 			display: inline-block;
 			width: 20%;
@@ -144,6 +148,7 @@ header{
 					display: inline-block;
 					width: 15%;
 				}
+		
 main{
 	background-image: url("../img/seccion2.jpg");
 	background-position: center;
@@ -276,7 +281,6 @@ main{
 			display: inline-block;
 			width: 60%;
 			height: 100%;
-			background-color: red;
 		}
 			.videoBordado iframe{
 				width: 100%;
@@ -316,12 +320,14 @@ main{
 	
 	footer{
 		background-image: url("../img/fondoFooter.jpg");
+		background-position:center;
+		background-size: cover;
 	}
 	
 		.contenidoFooter{
 			max-width: 1170px;
 			margin: 0 auto;
-			padding: 3% 0;
+			padding-top: 3%;
 			color: white;
 		}
 		
@@ -414,7 +420,12 @@ main{
 						.enlacesColumnaLegal p{
 							padding-bottom: 15px;
 						}
-
+	.copyright{
+		padding-top: 3%;
+		padding-bottom: 1%;
+		text-align: center;
+		font-size: 12px;
+	}
 
 @media (max-width: 1520px){
 	
@@ -474,6 +485,11 @@ main{
 		.enlaceSecInd1170{
 			font-size: 1.5126vw;
 		}
+		
+		.fraseComunicate{
+			width: 97%;
+			margin: 0 auto;
+		}
 }
 
 @media (max-width:1020px){
@@ -482,11 +498,16 @@ main{
 		padding-bottom: 0;
 	}
 		.headerEntero{
+			display: none;
 			max-width: none;
 			width: 98%;
 			margin: 0 auto;
 			padding-bottom: 0;
 			padding-top: 1%;
+		}
+		
+		.headerEnteroMin{
+			display: block;
 		}
 		
 		.headerCentro{
@@ -504,13 +525,62 @@ main{
 	
 	.textoPatrimonio{
 		width: 90%;
-		font-size: 2.8529vw;
+		font-size: 3.5vw;
 	}
 	
 	.logoPatrimonio img{
 		width: 30.5098vw;
 		margin: 0 auto;
 	}
+	
+	.headerEnteroMin{
+		width: 98%;
+		margin: 0 auto;
+		padding: 1% 0;
+	}
+	
+		.headerIzqMin{
+			display: inline-block;
+			width: 20%;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 50px;
+			float: left;
+			padding-top: 23px;
+		}
+		
+			.headerIzqMin{
+				align-items: center;
+			}
+		
+		.headerCenMin{
+			display: inline-block;
+			width: 45%;
+			padding: 0 2%;
+			text-align: center;
+		}
+		
+			.headerCenMin img{
+				width: 100%; 
+				max-width: 250px;
+			}
+		
+		.headerDerMin{
+			display: inline-block;
+			width: 30%;
+			float: right;
+		}
+		
+			.banderasMin{
+				padding-top: 17px;
+				text-align: center;
+			}
+		
+			.redesSocialesMin{
+				text-align: center;
+				padding-top: 10%;
+				vertical-align: bottom;
+			}
 }
 
 @media (max-width:870px){
@@ -535,6 +605,186 @@ main{
 	}
 	
 	.fraseComunicate{
-		font-size: 2.6667vw;
+		font-size: 3.6667vw;
+	}
+	
+	.contenidoSectionGrupoServicios{
+		width: 97%;
+		margin: 0 auto;
 	}
 }
+
+@media (max-width:670px){
+	
+	.columnaEnlaces, .columnaContacto, .columnaLegal{
+		display: block;
+		border: none;
+		width: 75%;
+		margin: 1% auto;
+		padding: 1% 0;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+	}
+	
+	.tituloColumnaFooter{
+		font-size: 5vw;
+	}
+	
+	.contenidoColumnas{
+		font-size: 3vw;
+	}
+	
+	.subgrupo{
+		width: 45vw;
+		height: 45vw;
+	}
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(2){
+			float: right;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(3){
+			margin-top: 2%;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:last-child{
+			margin-top: 2%;
+			float: right;
+		}
+	
+			.textoSubgrupo {
+			    font-size: 3.5vw;
+			}
+			
+			.botonSubgrupo p {
+			    font-size: 2.364vw;
+			}
+	
+		.contenidoInfoCursosBordado{
+			padding-top: 0%;
+		}
+			
+			.tituloInfoCursosBordado {
+			    font-size: 3.3vw;
+			}
+			
+			.textoInfoCursosBordado {
+			    font-size: 2.533vw;
+			}
+			
+			.botonInfoCursosBordado {
+			    width: 60%;
+			    padding: 6%;
+			}
+			
+				.botonInfoCursosBordado p{
+					font-size: 1.6vw;
+				}
+		
+		.headerIzqMin{
+			font-size: 7.6923vw;
+		}
+}
+
+@media (max-width:500px){
+	.contenidoSectionGrupoServicios {
+	    width: 95%;
+	    padding-bottom: 7%;
+	}
+		
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(1){
+			display: block;
+			margin: 0 auto;
+			float: none;
+			width: 90vw;
+			height: 90vw;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(2){
+			display: block;
+			margin: 0 auto;
+			float: none;
+			width: 90vw;
+			height: 90vw;
+			margin-top: 2%;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(3){
+			display: block;
+			margin: 0 auto;
+			float: none;
+			width: 90vw;
+			height: 90vw;
+			margin-top: 2%;
+		}
+		
+		.contenidoSectionGrupoServicios .subgrupo:nth-child(4){
+			display: block;
+			margin: 0 auto;
+			float: none;
+			width: 90vw;
+			height: 90vw;
+			margin-top: 2%;
+		}
+		
+			.textoSubgrupo {
+			    font-size: 6.5vw;
+			}
+			
+			.botonSubgrupo p {
+			    font-size: 4.364vw;
+			}
+		
+		.contenidoSectionCursosVideo{
+			width: 92%;
+			height: 100vw;
+		}
+		
+		.videoBordado{
+			display: block;
+			width: 100%;
+			height: 43vw;
+		}
+		
+		.contenidoInfoCursosBordado{
+			display: block;
+			width: 100%;
+			margin: 0;
+			padding-top: 3%;
+		}
+		
+			.tituloInfoCursosBordado {
+			    font-size: 7.3vw;
+			}
+			
+			.textoInfoCursosBordado {
+			    font-size: 5vw;
+			}
+			
+			.botonInfoCursosBordado {
+			    width: 45%;
+			    padding: 4.5%;
+			}
+			
+			.botonInfoCursosBordado p {
+			    font-size: 4vw;
+			}
+	
+	header {
+	    padding-bottom: 8px;
+	}
+		.banderaIdioma {
+		    width: 25%;
+		}
+}
+
+@media (max-width:350px){
+	.tituloColumnaFooter{
+		font-size: 6vw;
+	}
+	
+	.contenidoColumnas{
+		font-size: 4vw;
+	}
+}
+
+

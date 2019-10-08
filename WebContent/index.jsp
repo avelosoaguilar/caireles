@@ -13,13 +13,16 @@
 	<script> 
 		$(function(){
 		  $(".headerEntero").load("header.html"); 
-		  $(".contenidoFooter").load("footer.html"); 
+		  $(".contenidoFooter").load("footer.html");
+		  $(".headerEnteroMin").load("headerMin.html");
 		});
 	</script> 
 	</head>
 	<body>
 	<header>
 		<div class="headerEntero">
+		</div>
+		<div class="headerEnteroMin">
 		</div>
 	</header>
 		<main>
