@@ -66,7 +66,9 @@ html, body{
 /************HEADER*************/
 header{ 
 	background-color: white;
-	padding-bottom: 0.5%;
+	width: 100%;
+	position: static;
+	z-index: 99;
 }
 
 .clear{
@@ -85,10 +87,11 @@ header{
 		.headerIzquierda{
 			display: inline-block;
 			width: 20%;
+			padding-top: 8px;
 		}
 		
 			.headerIzquierda img{
-				width: 100%;
+				width: 85%;
 			}
 		
 		.headerCentro{
@@ -97,6 +100,7 @@ header{
 			width: 60%;
 			vertical-align: top;
 			padding-left: 3%;
+			padding-top: 5px;
 		}
 		
 			.parteSuperior{
@@ -144,7 +148,7 @@ header{
 				vertical-align: bottom;
 			}
 			
-				.iconoRedSocial{
+				.iconoRedSocial, .iconoRedSocialFila1, .iconoRedSocialFila2{
 					display: inline-block;
 					width: 15%;
 				}
@@ -159,6 +163,8 @@ main{
 
 	#sectionNosotros{
 		background-image: url("../img/seccion1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
 		color: white;
 	}
 	
@@ -536,7 +542,7 @@ main{
 	.headerEnteroMin{
 		width: 98%;
 		margin: 0 auto;
-		padding: 1% 0;
+		padding: 3% 0;
 	}
 	
 		.headerIzqMin{
@@ -572,13 +578,13 @@ main{
 		}
 		
 			.banderasMin{
-				padding-top: 17px;
+				padding-top: 9%;
 				text-align: center;
 			}
 		
 			.redesSocialesMin{
 				text-align: center;
-				padding-top: 10%;
+				padding-top: 7%;
 				vertical-align: bottom;
 			}
 }
@@ -683,6 +689,19 @@ main{
 		.headerIzqMin{
 			font-size: 7.6923vw;
 		}
+		
+		.iconoRedSocialFila1{
+			width: 30%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		
+		.iconoRedSocialFila2{
+			width: 30%;
+			text-align: center;
+			margin: 0 auto;
+			padding-top: 5%;
+		}
 }
 
 @media (max-width:500px){
@@ -773,7 +792,7 @@ main{
 	    padding-bottom: 8px;
 	}
 		.banderaIdioma {
-		    width: 25%;
+		    width: 32%;
 		}
 }
 

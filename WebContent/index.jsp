@@ -137,4 +137,14 @@
 		</footer>
 		
 	</body>
+	<script>
+		$(window).on("scroll", function() {
+		    var scrollPos = $(window).scrollTop();
+		    if (scrollPos <= 0) {
+		        $("header").css("position", "static");
+		    } else {
+		        $("header").css("position", "fixed");
+		    }
+		});
+	</script>
 </html>
