@@ -64,6 +64,15 @@ html, body{
 }
 
 /************HEADER*************/
+
+.iconoRedSocial a:visited, .iconoRedSocialFila1 a:visited, .iconoRedSocialFila2 a:visited, .iconoRedSocial a:link, .iconoRedSocialFila1 a:link, .iconoRedSocialFila2 a:link{
+	color: black;
+}
+
+.iconoRedSocialFooter a:visited, .iconoRedSocialFooter a:link{
+	color: white;
+}
+
 header{ 
 	background-color: white;
 	width: 100%;
@@ -117,6 +126,11 @@ header{
 					font-size: 20px;
 				}
 				
+					.menuNavHeader ul li a:link, .menuNavHeader ul li a:visited{
+						text-decoration: none;
+						color: black;
+					}
+				
 				.menuNavHeader ul li:not(:first-child){
 					display: inline-block;
 					padding: 0 1%;
@@ -148,11 +162,28 @@ header{
 				vertical-align: bottom;
 			}
 			
-				.iconoRedSocial, .iconoRedSocialFila1, .iconoRedSocialFila2{
+				.iconoRedSocial, .iconoRedSocialFooter, .iconoRedSocialFila1, .iconoRedSocialFila2{
 					display: inline-block;
 					width: 15%;
 				}
-		
+
+	.botonSubir{
+		visibility:hidden;
+		color: white;
+		background-color: #bababa;
+		position: fixed;
+		font-size: 30px;
+		right: 0;
+		bottom: 0;
+		border: 5px solid black;
+		padding: 5px 5px;
+		margin-bottom: 7%;
+	}
+	
+	.botonSubir a:visited, .botonSubir a:link, .botonSubir.a:hover{
+		color: white;
+	}
+	
 main{
 	background-image: url("../img/seccion2.jpg");
 	background-position: center;
@@ -160,6 +191,11 @@ main{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+	
+	#rellenoSticky{
+		width: 100%;
+		background-color: white;
+	}
 
 	#sectionNosotros{
 		background-image: url("../img/seccion1.jpg");
@@ -196,6 +232,10 @@ main{
 				background-color: black;
 				color:white;
 			}
+				.enlaceSecInd1170 p a:link, .enlaceSecInd1170 p a:visited{
+					text-decoration: none;
+					color: white;
+				}
 	
 	#sectionPatriMundial{
 		background-color: white;
@@ -270,6 +310,10 @@ main{
 					color: white;
 					font-size: 18px;
 				}
+					.botonSubgrupo p a:link, .botonSubgrupo p a:visited{
+						text-decoration: none;
+						color: white;
+					}
 			
 	#sectionCursosVideo{
 		width: 100%;
@@ -323,6 +367,11 @@ main{
 				background-color: black;
 				font-size: 18px;
 			}
+			
+				.botonInfoCursosBordado p a:link, .botonInfoCursosBordado p a:visited{
+					text-decoration: none;
+					color: white;
+				}
 	
 	footer{
 		background-image: url("../img/fondoFooter.jpg");
@@ -375,8 +424,17 @@ main{
 					.opcionesColumnaEnlaces{
 						padding-top: 25px;
 					}
-					
+						.opcionesColumnaEnlaces p a:visited, .opcionesColumnaEnlaces p a:link, .opcionesColumnaEnlaces p a:hover{
+							color: white;
+							text-decoration: none;
+						}
+						
+						.opcionesColumnaEnlaces p a:link{
+							text-decoration: none;
+						}
+						
 						.opcionesColumnaEnlaces p{
+							display: block;
 							padding-bottom: 15px;
 						}
 			
@@ -794,6 +852,10 @@ main{
 		.banderaIdioma {
 		    width: 32%;
 		}
+	
+	.botonSubir {
+    	font-size: 20px;
+	}
 }
 
 @media (max-width:350px){
