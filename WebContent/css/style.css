@@ -637,6 +637,7 @@ html, body{
 		
 		.subgrupoBordador p{
 			width: 100%;
+			font-size: 20px;
 		}
 		
 		.contenidoBordadores .subgrupoBordador:first-child{
@@ -745,6 +746,25 @@ html, body{
 		.enlaceServicios {
 	    	margin-top: 5%;
 		}
+	
+	.subgrupoBordador {
+	    width: 45vw;
+	    height: 45vw;
+	    max-width: none;
+	}
+	
+		.contenidoBordadores .subgrupoBordador:first-child{
+			margin-left: 3%;
+		}
+		
+		.contenidoBordadores .subgrupoBordador:last-child{
+			margin-right: 3%;
+		}
+		
+			.subgrupoBordador p {
+			    width: 90%;
+			    margin: 0 auto;
+			}
 }
 
 @media (max-width:1020px){
@@ -859,6 +879,11 @@ html, body{
 	.contenidoEncabezado {
 	    font-size: 7.0588vw;
 	    padding: 6% 2%;
+	}
+	
+	#seccionValores{
+		width: 98%;
+		margin: 0 auto;
 	}
 }
 
@@ -982,6 +1007,34 @@ html, body{
 			margin: 0 auto;
 			padding-top: 5%;
 		}
+/*******************INICIO ACERCA NOSOTROS 670******/
+	.subgrupoValor {
+	    display: block;
+	    vertical-align: baseline;
+	    width: 75%;
+	    margin: 0 auto;
+	    padding: 5% 0;
+	}
+	
+		.seccion1170 .subgrupoValor:nth-child(2){
+			margin: 0 auto;
+		}
+	
+	.subgrupoBordador{
+		display: block;
+		width: 90vw;
+		height: 90vw;
+		margin: 0 auto;
+	}
+		
+		.subgrupoBordador p{
+			font-size: 5vw;
+		}
+	
+	.contenidoBordadores .subgrupoBordador:last-child{
+		float: none;
+		margin-top: 5%;
+	}
 }
 
 @media (max-width:500px){
