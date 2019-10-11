@@ -1,7 +1,7 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
 <div class="headerIzquierda">
-	<a href="./index.jsp">
-		<img alt="Logo Caireles" src="./img/logo.png">
+	<a href="<%= request.getContextPath() %>/index.jsp">
+		<img alt="Logo Caireles" src="<%= request.getContextPath() %>/img/logo.png">
 	</a>
 </div>
 
@@ -13,8 +13,8 @@
 		<nav>
 			<div class="menuNavHeader">
 			<ul>
-				<li><a href="./index.jsp">Inicio</a></li>
-				<li><a href="#">Quiénes somos</a></li>
+				<li><a href="<%= request.getContextPath() %>/index.jsp">Inicio</a></li>
+				<li><a href="<%= request.getContextPath() %>/jsp/quienesSomos.jsp">Qui�nes somos</a></li>
 				<li><a href="#">Nuestros servicios</a></li>
 				<li><a href="#">Eventos</a></li>
 				<li><a href="#">Contacto</a></li>
@@ -28,12 +28,12 @@
 	<div class="banderas">
 		<div class="banderaIdioma">
 			<a href="#">
-				<img alt="Idioma español" src="./img/iconEspana.png">
+				<img alt="Idioma español" src="<%= request.getContextPath() %>/img/iconEspana.png">
 			</a>
 		</div><!--
 		--><div class="banderaIdioma">
 			<a href="#">
-				<img alt="Idioma inglés" src="./img/iconIngles.jpg">
+				<img alt="Idioma inglés" src="<%= request.getContextPath() %>/img/iconIngles.jpg">
 			</a>
 		</div>
 	</div>

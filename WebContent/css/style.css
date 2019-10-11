@@ -53,14 +53,29 @@ table {
 
 /****************FIN RESET**********************/
 
-@font-face {
+@font-face{
     font-family: fuenteCaireles;
     src: url("../fonts/fuenteCaireles.otf");
 }
 
+@font-face{
+	font-family: AmikoReg;
+	src: url("../fonts/Amiko-Regular.ttf");
+}
+
+@font-face{
+	font-family: AmikoSemB;
+	src: url("../fonts/Amiko-SemiBold.ttf");
+}
+
+@font-face{
+	font-family: AmikoBold;
+	src: url("../fonts/Amiko-Bold.ttf");
+}
+
 html, body{
 	width: 100%;
-	font-family: fuenteCaireles;
+	font-family: AmikoReg;
 }
 
 /************HEADER*************/
@@ -73,7 +88,7 @@ html, body{
 	color: white;
 }
 
-header{ 
+#headerWeb{ 
 	background-color: white;
 	width: 100%;
 	position: static;
@@ -108,12 +123,12 @@ header{
 			margin: 0 auto;
 			width: 60%;
 			vertical-align: top;
-			padding-left: 3%;
+			padding-left: 2%;
 			padding-top: 5px;
 		}
 		
 			.parteSuperior{
-				font-size: 26px;
+				font-size: 25px;
 				padding: 1% 0;
 			}
 			
@@ -123,7 +138,7 @@ header{
 			
 				.menuNavHeader ul li{
 					display: inline-block;
-					font-size: 20px;
+					font-size: 19px;
 				}
 				
 					.menuNavHeader ul li a:link, .menuNavHeader ul li a:visited{
@@ -184,7 +199,7 @@ header{
 		color: white;
 	}
 	
-main{
+#mainIndex{
 	background-image: url("../img/seccion2.jpg");
 	background-position: center;
 	background-size: cover;
@@ -490,6 +505,160 @@ main{
 		text-align: center;
 		font-size: 12px;
 	}
+/**********************FIN INDEX************************/
+/**********************INICIO ACERCA DE NOSOTROS********/
+.encabezadoGeneral{
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#encAcercaNosotros{
+	background-image: url("../img/acercaNosotros/encabezadoGeneral.jpg");
+}
+
+	.contenidoEncabezado{
+		max-width: 1170px;
+		margin: 0 auto;
+		text-align: center;
+		font-family: AmikoBold;
+		font-size: 60px;
+		padding: 3% 0;
+	}
+
+	.seccion1170{
+		max-width: 1170px;
+		margin: 0 auto;
+		font-family: AmikoSemB;
+		padding-bottom: 3%;
+	}
+		.seccion1170 h2{
+			font-size: 30px;
+			text-align: center;
+			padding: 5% 0;
+		}
+		
+		.imagenQuienesSomos{
+			display:inline-block;
+			width: 55%;
+		}
+		
+			.imagenQuienesSomos img{
+				width: 100%;
+			}
+		
+		.textoQuienesSomos{
+			display:inline-block;
+			width: 35%;
+			padding-left:  9%;
+			vertical-align: top;
+			font-family: AmikoReg;
+		}
+			
+			.textoQuienesSomos p:first-child{
+				margin: 6% 0;
+				text-align: justify;
+			}
+			
+				.textoQuienesSomos ul{
+					padding-left: 7%;
+				}
+				
+				.textoQuienesSomos ul li{
+					list-style-image: url("../img/cairel.png");
+					padding-bottom: 4%;
+					padding-left: 1%;
+				}
+				
+				.enlaceServicios{
+					width: 75%;
+					margin: 0 auto;
+					padding: 3% 0;
+					margin-top: 8%;
+					background-color: black;
+					color: white;
+					text-align: center;
+				}
+				
+					.enlaceServicios a:link, .enlaceServicios a:visited{
+						color: white;
+						text-decoration: none;
+					}
+
+		.subgrupoValor{
+			display:inline-block;
+			vertical-align: top;
+			width: 30%;
+			text-align: center;
+		}
+		
+		.seccion1170 .subgrupoValor:nth-child(2){
+			margin: 0 4%;
+		}
+		
+			.iconoSubgrupoValor{
+				padding-bottom: 5%;
+			}
+			
+				.iconoSubgrupoValor i{
+					font-size: 30px;
+					
+				}
+			
+			.tituloSubgrupoValor{
+				font-family: AmikoBold;
+				padding-bottom: 5%;
+			}
+			
+			.textoSubgrupoValor p{
+				padding-bottom: 4%;
+				font-family: AmikoReg;
+				color: grey;
+			}
+	
+	.contenidoBordadores{
+		width: 100%;
+		margin: 0 auto;
+ 	}
+	
+		.subgrupoBordador{
+			display: inline-block;
+			width: 50%;
+			height: 450px;
+			max-width: 450px;
+			text-align: center;
+			background-position: center;
+			border-radius: 50%;
+			background-size: cover;
+			vertical-align: top;
+		}
+		
+		.subgrupoBordador p{
+			width: 100%;
+		}
+		
+		.contenidoBordadores .subgrupoBordador:first-child{
+			margin-left: 7%;
+			background-image: url("../img/acercaNosotros/bordadorJosito.JPG");
+		}
+		
+		.contenidoBordadores .subgrupoBordador:last-child{
+			margin-right: 7%;
+			background-image: url("../img/acercaNosotros/bordadorSergio.jpg");
+			float: right;
+		}
+		
+			.textoSubgrupoBordador{
+				position: relative;
+				top: 40%;
+			}
+/**********************FIN ACERCA DE NOSOTROS********/
+#pruebaAltura{
+	height: 800px;	
+}
+
 
 @media (max-width: 1520px){
 	
@@ -513,7 +682,7 @@ main{
 
 @media (max-width:1387px){
 	.parteSuperior{
-		font-size: 1.8541vw;
+		font-size: 1.7541vw;
 	}
 }
 
@@ -536,6 +705,7 @@ main{
 }
 
 @media only screen and (max-width:1190px){
+/*******************INICIO INDEX************************/
 	.cajaSectionIndex1170{
 		max-width: none;
 		width: 100%;
@@ -554,11 +724,32 @@ main{
 			width: 97%;
 			margin: 0 auto;
 		}
+/*******************INICIO ACERCA NOSOTROS 1170******/
+	.seccion1170 h2 {
+	    padding: 5% 5%;
+	}
+	
+	.contenidoQuienesSomos{
+		padding: 0 2%;
+	}
+		.textoQuienesSomos {
+			width: 40%;
+		    padding-left: 2%;
+		    font-size: 1.3675vw;
+		}
+		
+		.textoQuienesSomos p:first-child{
+			margin-top: 0;
+		}
+		
+		.enlaceServicios {
+	    	margin-top: 5%;
+		}
 }
 
 @media (max-width:1020px){
-	
-	header{
+/*******************INICIO INDEX 1000****************/
+	#headerWeb{
 		padding-bottom: 0;
 	}
 		.headerEntero{
@@ -645,9 +836,14 @@ main{
 				padding-top: 7%;
 				vertical-align: bottom;
 			}
+/*******************INICIO ACERCA NOSOTROS 1000******/
+	.seccion1170 h2 {
+	    font-size: 4.2vw;
+	}
 }
 
 @media (max-width:870px){
+/*******************INICIO INDEX 850****************/
 	.contenidoColumnaEnlaces{
 		width: 100%;
 	}
@@ -659,11 +855,16 @@ main{
 	.contenidoColumnas{
 		font-size: 1.6647vw;
 	}
+/*******************INICIO ACERCA NOSOTROS 850******/
+	.contenidoEncabezado {
+	    font-size: 7.0588vw;
+	    padding: 6% 2%;
+	}
 }
 
 @media (max-width:770px){
 	.enlaceSecInd1170{
-		font-size: 2.5126vw;
+		font-size: 2.4126vw;
 		width: 12%;
 		padding: 2% 6%;
 	}
@@ -676,6 +877,27 @@ main{
 		width: 97%;
 		margin: 0 auto;
 	}
+/*******************INICIO ACERCA NOSOTROS 750******/
+	
+	.imagenQuienesSomos {
+	    display: block;
+	    width: 90%;
+	    margin: 0 auto;
+	    padding: 0 5%;
+	}
+	
+	.textoQuienesSomos {
+		display:block;
+	    width: 90%;
+	    margin: 0 auto;
+	    padding: 3% 5%;
+	    font-size: 3vw;
+	}
+	
+		.textoQuienesSomos ul{
+			width: 90%;
+			padding-left: 9%;
+		}
 }
 
 @media (max-width:670px){
@@ -732,7 +954,7 @@ main{
 			}
 			
 			.textoInfoCursosBordado {
-			    font-size: 2.533vw;
+			    font-size: 2.333vw;
 			}
 			
 			.botonInfoCursosBordado {
@@ -846,7 +1068,7 @@ main{
 			    font-size: 4vw;
 			}
 	
-	header {
+	#headerWeb {
 	    padding-bottom: 8px;
 	}
 		.banderaIdioma {
@@ -867,5 +1089,3 @@ main{
 		font-size: 4vw;
 	}
 }
-
-

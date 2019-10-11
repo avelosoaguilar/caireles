@@ -1,12 +1,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <div class="logoCairelesFooter">
-	<a href="./index.jsp">
-		<img alt="Logo Caireles" src="./img/logoFooter.png">	
+	<a href="<%= request.getContextPath() %>/index.jsp">
+		<img alt="Logo Caireles" src="<%= request.getContextPath() %>/img/logoFooter.png">	
 	</a>
 </div>
 
 <div class="fraseComunicate">
-	<p>ComunÃ­cate con nosotros e infÃ³rmate mÃ¡s sobre nuestra empresa y los productos y servicios que ofrecemos.</p>
+	<p>Comunícate con nosotros e infórmate más sobre nuestra empresa y los productos y servicios que ofrecemos.</p>
 </div>
 
 <div class="contenidoColumnas">
@@ -16,8 +16,8 @@
 				<p>Enlaces</p>
 			</div>
 			<div class="opcionesColumnaEnlaces">
-				<p><a href="./index.jsp">Inicio</a></p>
-				<p><a href="#">QuiÃ©nes somos</a></p>
+				<p><a href="<%= request.getContextPath() %>/index.jsp">Inicio</a></p>
+				<p><a href="<%= request.getContextPath() %>/jsp/quienesSomos.jsp">Quiénes somos</a></p>
 				<p><a href="#">Nuestros servicios</a></p>
 				<p><a href="#">Eventos</a></p>
 				<p><a href="#">Contacto</a></p>
@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<p>caireles@cairelessalamanca.com</p>
-				<p>TelÃ©fono: +34 923 249 168</p>
+				<p>Teléfono: +34 923 249 168</p>
 			</div>
 		</div>
 	</div><!--
@@ -69,19 +69,19 @@
 	--><div class="columnaLegal">
 		<div class="contenidoColumnaLegal">
 			<div class="tituloColumnaFooter">
-				<p>InformaciÃ³n legal</p>
+				<p>Información legal</p>
 			</div>
 			<div class="enlacesColumnaLegal">
-				<p>PolÃ­tica de privacidad</p>
-				<p>PolÃ­tica de cookies</p>
+				<p>Política de privacidad</p>
+				<p>Política de cookies</p>
 				<p>&nbsp</p>
 				<p>&nbsp</p>
-				<p>DiseÃ±o web: Caireles</p>
+				<p>Diseño web: Caireles</p>
 			</div>
 		</div>		
 	</div>
 </div>
 
 <div class="copyright">
-	<p>Copyright 2019 Â© Caireles Salamanca. Todos los derechos reservados.</p>
+	<p>Copyright 2019 © Caireles Salamanca. Todos los derechos reservados.</p>
 </div>

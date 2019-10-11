@@ -4,19 +4,19 @@
 </div>
 
 <div class="headerCenMin">
-	<img alt="Logo Caireles" src="./img/logo.png">
+	<img alt="Logo Caireles" src="<%= request.getContextPath() %>/img/logo.png">
 </div>
 
 <div class="headerDerMin">
 	<div class="banderasMin">
 		<div class="banderaIdioma">
 			<a href="#">
-				<img alt="Idioma espaÃ±ol" src="./img/iconEspana.png">
+				<img alt="Idioma español" src="<%= request.getContextPath() %>/img/iconEspana.png">
 			</a>
 		</div><!--
 		--><div class="banderaIdioma">
 			<a href="#">
-				<img alt="Idioma inglÃ©s" src="./img/iconIngles.jpg">
+				<img alt="Idioma inglés" src="<%= request.getContextPath() %>/img/iconIngles.jpg">
 			</a>
 		</div>
 	</div>

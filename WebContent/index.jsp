@@ -1,34 +1,30 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-
-
-
 <html>
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<link href="./css/style.css" rel="stylesheet" type="text/css">
+		<link href="<%= request.getContextPath() %>/css/style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="ISO-8859-1">
 		<title>Caireles</title>
-	<script> 
-		$(function(){
-		  $(".headerEntero").load("header.html"); 
-		  $(".contenidoFooter").load("footer.html");
-		  $(".headerEnteroMin").load("headerMin.html");
-		});
-	</script> 
+		<script> 
+			$(function(){
+			  $(".headerEntero").load("<%= request.getContextPath() %>/header.jsp"); 
+			  $(".contenidoFooter").load("<%= request.getContextPath() %>/footer.jsp");
+			  $(".headerEnteroMin").load("<%= request.getContextPath() %>/headerMin.jsp");
+			});
+		</script>
 	</head>
 	<body>
-	<header>
-		<div class="headerEntero">
-		</div>
-		<div class="headerEnteroMin">
-		</div>
-	</header>
-	<main>
-		<div id="rellenoSticky">
-		</div>
-		<article class="negocio">
+		<header id="headerWeb">
+			<div class="headerEntero">
+			</div>
+			<div class="headerEnteroMin">
+			</div>
+		</header>
+		<main id="mainIndex">
+			<div id="rellenoSticky">
+			</div>
 			<section id="sectionNosotros">
 				<div class="cajaSectionIndex1170">
 					<div class="textoSecInd1170">
@@ -132,14 +128,12 @@
 					</div>
 				</div>
 			</section>
-		</article>
-	</main>
-	
-	<footer>
-		<div class="contenidoFooter">
-		</div>
-	</footer>
+		</main>
 		
+		<footer>
+			<div class="contenidoFooter">
+			</div>
+		</footer>
 	</body>
 	<script>
 		$(window).on("scroll", function() {
