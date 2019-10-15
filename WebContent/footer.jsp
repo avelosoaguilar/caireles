@@ -18,7 +18,7 @@
 			<div class="opcionesColumnaEnlaces">
 				<p><a href="<%= request.getContextPath() %>/index.jsp">Inicio</a></p>
 				<p><a href="<%= request.getContextPath() %>/jsp/quienesSomos.jsp">Quiénes somos</a></p>
-				<p><a href="#">Nuestros servicios</a></p>
+				<p><a href="<%= request.getContextPath() %>/jsp/nuestrosServicios.jsp">Nuestros servicios</a></p>
 				<p><a href="#">Eventos</a></p>
 				<p><a href="#">Contacto</a></p>
 			</div>

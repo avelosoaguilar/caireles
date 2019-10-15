@@ -388,7 +388,7 @@ html, body{
 					color: white;
 				}
 	
-	footer{
+	.footerGeneral{
 		background-image: url("../img/fondoFooter.jpg");
 		background-position:center;
 		background-size: cover;
@@ -505,12 +505,10 @@ html, body{
 		text-align: center;
 		font-size: 12px;
 	}
-/**********************FIN INDEX************************/
 /**********************INICIO ACERCA DE NOSOTROS********/
 .encabezadoGeneral{
 	width: 100%;
 	background-position: center;
-	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -532,7 +530,6 @@ html, body{
 		max-width: 1170px;
 		margin: 0 auto;
 		font-family: AmikoSemB;
-		padding-bottom: 3%;
 	}
 		.seccion1170 h2{
 			font-size: 30px;
@@ -655,7 +652,106 @@ html, body{
 				position: relative;
 				top: 40%;
 			}
-/**********************FIN ACERCA DE NOSOTROS********/
+/**********************INICIO NUESTROS SERVICIOS********/
+#encNuestrosServicios{
+	background-image: url("../img/nuestrosServicios/encNuestrosServicios.jpg");
+}
+	.seccionServicio{
+		border-top: 1px solid grey;
+		padding: 1% 0;
+		
+	}
+
+	.imagenServicio {
+		display: inline-block;
+		width: 35%;
+		max-width: 350px;
+	}
+	
+		.imagenServicio img{
+			width: 100%;
+		}
+	
+	.contenidoServicio{
+		display: inline-block;
+		width: 60%;
+		float: right;
+		padding-top: 5%;
+	}
+	
+		.titArtServicio{
+			font-size: 23px;
+		}
+		
+		.contArtServicio{
+			font-size: 16px;
+			font-family: AmikoReg;
+			padding: 5% 0;
+		}
+		
+		.contArtServicio p{
+			padding: 1% 0;
+		}
+		
+		.enlaceArtServicio{
+			display: inline-block;
+			width: 25%;
+			background-color: black;
+			padding: 2% 5%;
+			text-align: center;
+		}
+		
+			.enlaceArtServicio a:link, .enlaceArtServicio a:visited{
+				text-decoration: none;
+				color: white;
+			}
+		
+		.listCursForm{
+			padding-left: 7%;
+		}
+				
+		.listCursFormLi{
+			list-style-image: url("../img/cairel.png");
+			padding-bottom: 2%;
+			padding-left: 1%;
+		}
+		
+	#seccionInfContacto{
+		padding: 3% 0;
+		text-align: center;
+		background-image: url("../img/nuestrosServicios/encNuestrosServicios.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+		.tituloSecInfContacto{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		
+			.tituloSecInfContacto p{
+				padding-bottom: 2%;
+			}
+		
+		.textoSecInfContacto{
+			font-size: 22px;
+		}
+		
+		.enlaceSecInfContacto{
+			display: inline-block;
+			width: 15%;
+			margin-top: 4%;
+			padding: 2% 6%;
+			background-color: black;
+			font-size: 18px;
+		}
+		
+		.enlaceSecInfContacto a:link, .enlaceSecInfContacto a:visited{
+			text-decoration: none;
+			color: white;
+		}
+
 #pruebaAltura{
 	height: 800px;	
 }

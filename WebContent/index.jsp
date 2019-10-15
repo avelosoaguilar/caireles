@@ -4,10 +4,11 @@
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link href="<%= request.getContextPath() %>/css/style.css" rel="stylesheet" type="text/css">
+		<script src="<%= request.getContextPath() %>/js/scriptHeaderSticky.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="ISO-8859-1">
 		<title>Caireles</title>
-		<script> 
+		<script>
 			$(function(){
 			  $(".headerEntero").load("<%= request.getContextPath() %>/header.jsp"); 
 			  $(".contenidoFooter").load("<%= request.getContextPath() %>/footer.jsp");
@@ -31,7 +32,7 @@
 						<p>El arte del bordado hecho a mano</p>
 					</div>
 					<div class="enlaceSecInd1170">
-						<p><a href="#">Leer más</a></p>
+						<p><a href="<%= request.getContextPath() %>/jsp/quienesSomos.jsp">Leer más</a></p>
 					</div>
 				</div>
 			</section>
@@ -42,7 +43,7 @@
 						<p>Manos que crean, manos que sueñan</p>
 					</div>
 					<div class="enlaceSecInd1170">
-						<p><a href="#">Leer más</a></p>
+						<p><a href="<%= request.getContextPath() %>/jsp/nuestrosServicios.jsp">Leer más</a></p>
 					</div>
 				</div>
 			</section>
@@ -130,26 +131,13 @@
 			</section>
 		</main>
 		
-		<footer>
+		<footer class="footerGeneral">
 			<div class="contenidoFooter">
 			</div>
 		</footer>
+		<script>
+			comportamientoHeaderSticky();
+		</script>
 	</body>
-	<script>
-		$(window).on("scroll", function() {
-			//rellenoSticky para que no haya movimiento brusco
-			//al quitar/poner header sticky
-			var headerHeight = $("header").outerHeight();
-		    var scrollPos = $(window).scrollTop();
-		    if (scrollPos <= 0) {
-		        $("header").css("position", "static");
-		        $("#rellenoSticky").height(0);
-		        $(".botonSubir").css('visibility', 'hidden');
-		    } else {
-		        $("header").css("position", "fixed");
-		        $("#rellenoSticky").height(headerHeight);
-		        $(".botonSubir").css('visibility', 'visible');
-		    }
-		});
-	</script>
+	
 </html>
