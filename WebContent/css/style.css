@@ -861,6 +861,11 @@ html, body{
 			    width: 90%;
 			    margin: 0 auto;
 			}
+/*******************INICIO NUESTROS SERVICIOS 1170****************/
+		.enlaceSecInfContacto {
+		    width: 22%;
+		    font-size: 17px;
+		}
 }
 
 @media (max-width:1020px){
@@ -959,7 +964,7 @@ html, body{
 }
 
 @media (max-width:870px){
-/*******************INICIO INDEX 850****************/
+/*******************INICIO INDEX 850 ****************/
 	.contenidoColumnaEnlaces{
 		width: 100%;
 	}
@@ -971,6 +976,7 @@ html, body{
 	.contenidoColumnas{
 		font-size: 1.6647vw;
 	}
+	
 /*******************INICIO ACERCA NOSOTROS 850******/
 	.contenidoEncabezado {
 	    font-size: 7.0588vw;
@@ -980,6 +986,15 @@ html, body{
 	#seccionValores{
 		width: 98%;
 		margin: 0 auto;
+	}
+
+/*******************INICIO NUESTROS SERVICIOS 850 ***/
+	.titArtServicio{
+		font-size: 2.7059vw;
+	}
+	
+	.contArtServicio, .enlaceArtServicio{
+		font-size: 1.8824vw;
 	}
 }
 
@@ -1018,6 +1033,10 @@ html, body{
 		.textoQuienesSomos ul{
 			width: 90%;
 			padding-left: 9%;
+		}
+/*******************INICIO NUESTROS SERVICIOS 1170****************/
+		.enlaceSecInfContacto {
+		    width: 25%;
 		}
 }
 
@@ -1103,7 +1122,7 @@ html, body{
 			margin: 0 auto;
 			padding-top: 5%;
 		}
-/*******************INICIO ACERCA NOSOTROS 670******/
+/*******************INICIO ACERCA NOSOTROS 670 ******/
 	.subgrupoValor {
 	    display: block;
 	    vertical-align: baseline;
@@ -1131,6 +1150,41 @@ html, body{
 		float: none;
 		margin-top: 5%;
 	}
+/*******************INICIO NUESTROS SERVICIOS 670 ******/
+	.imagenServicio{
+		display: block;
+		width: 98%;
+		margin: 0 auto;
+	}
+	
+	.contenidoServicio{
+		display: block;
+		width: 95%;
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+	
+		.titArtServicio{
+			font-size: 23px;
+		}
+		
+		.contArtServicio, .enlaceArtServicio{
+			font-size: 16px;
+		}
+		
+		.listCursFormLi{
+			text-align: left;
+		}
+		
+		.textoSecInfContacto {
+		    padding: 5% 0;
+		}
+		
+		.enlaceSecInfContacto {
+		    display: inline-block;
+		    width: 45%;
+		}
 }
 
 @media (max-width:500px){
