@@ -530,6 +530,7 @@ html, body{
 		max-width: 1170px;
 		margin: 0 auto;
 		font-family: AmikoSemB;
+		padding: 1% 0;
 	}
 		.seccion1170 h2{
 			font-size: 30px;
@@ -751,6 +752,30 @@ html, body{
 			text-decoration: none;
 			color: white;
 		}
+
+/******************** INICIO EVENTOS **************/
+
+#encEventos{
+	background-image: url("../img/eventos/encabezado.jpg");
+}
+
+	.textoEventos{
+		font-family: AmikoReg;
+		line-height: 25px;
+		text-align: justify;
+	}
+	
+		.textoEventos p{
+			padding: 1% 0;
+		}
+	
+	.imagenEventos{
+		text-align: center;
+	}
+	
+	.textoNegrita{
+		font-family: AmikoBold;
+	}
 
 #pruebaAltura{
 	height: 800px;	
