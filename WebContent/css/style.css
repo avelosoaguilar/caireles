@@ -886,11 +886,32 @@ html, body{
 			    width: 90%;
 			    margin: 0 auto;
 			}
-/*******************INICIO NUESTROS SERVICIOS 1170****************/
+/*******************INICIO NUESTROS SERVICIOS 1170****/
 		.enlaceSecInfContacto {
 		    width: 22%;
 		    font-size: 17px;
 		}
+/******************INICIO EVENTOS 1170 ***************/
+	.textoEventos{
+		width: 95%;
+		margin: 0 auto;
+/* 		font-size: 2.1367vw; */
+	}
+	
+		.textoEventos p{
+			padding: 1% 0;
+		}
+	
+	.imagenEventos{
+		text-align: center;
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+/* 		.imagenEventos img{ */
+/* 			width: 100%; */
+/* 		} */
+
 }
 
 @media (max-width:1020px){
@@ -1013,7 +1034,7 @@ html, body{
 		margin: 0 auto;
 	}
 
-/*******************INICIO NUESTROS SERVICIOS 850 ***/
+/*************** INICIO NUESTROS SERVICIOS 850 ***/
 	.titArtServicio{
 		font-size: 2.7059vw;
 	}
@@ -1021,6 +1042,11 @@ html, body{
 	.contArtServicio, .enlaceArtServicio{
 		font-size: 1.8824vw;
 	}
+/*************** INICIO EVENTOS 850 *********/
+
+		.imagenEventos img{
+			width: 100%;
+		}
 }
 
 @media (max-width:770px){
@@ -1306,6 +1332,16 @@ html, body{
 	.botonSubir {
     	font-size: 20px;
 	}
+	
+/*************** INICIO EVENTOS 500 *********/
+
+	.textoEventos{
+		font-size: 4vw;
+	}
+	
+		.textoEventos p{
+			padding-bottom: 10%;
+		}
 }
 
 @media (max-width:350px){
