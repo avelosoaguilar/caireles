@@ -20,7 +20,7 @@
 				<p><a href="<%= request.getContextPath() %>/jsp/quienesSomos.jsp">Quiénes somos</a></p>
 				<p><a href="<%= request.getContextPath() %>/jsp/nuestrosServicios.jsp">Nuestros servicios</a></p>
 				<p><a href="<%= request.getContextPath() %>/jsp/eventos.jsp">Eventos</a></p>
-				<p><a href="#">Contacto</a></p>
+				<p><a href="<%= request.getContextPath() %>/jsp/contacto.jsp">Contacto</a></p>
 			</div>
 		</div>
 	</div><!--

@@ -776,6 +776,127 @@ html, body{
 	.textoNegrita{
 		font-family: AmikoBold;
 	}
+/******************** INICIO CONTACTO **************/
+	#encContacto{
+		background-image: url("../img/contacto/encContacto.jpg");
+	}
+	
+	.contHorarioDireccion{
+		display:inline-block;
+		width: 48%;
+/* 		background-color: #c8e8ff; */
+		padding-right: 1.5%;
+		text-align: center;
+		font-size: 20px;
+		font-family: AmikoReg;
+	}
+	
+		.titHorarioNormal{
+			padding: 3% 0;
+			font-family: AmikoSemB;
+			font-size: 25px;
+		}
+	
+		.contDireccionTelefono{
+			padding-bottom: 5%;
+		}
+	
+			.contDireccionTelefono p{
+				padding-bottom: 2%;
+			}
+		
+		.ContHorarioNormal{
+			border: 5px solid black;
+			font-size: 16px;
+			margin-bottom: 5%;
+		}
+		
+			.filaHorario{
+				padding: 2% 0;
+			}
+		
+			.columnaHorario{
+				display: inline-block;
+				width: 48%;
+				text-align: center;
+			}
+		
+		.ContHorarioVerano{
+			border: 5px solid black;
+			font-size: 16px;
+			margin-bottom: 5%;
+		}
+	
+	.contactoFormulario{
+		padding-left: 2%;
+		display:inline-block;
+		width: 48%;
+		background-color: #F5F5F5;
+		float: right;
+	}
+	
+	.titSubseccionContacto {
+	    padding: 3% 0;
+	    font-family: AmikoSemB;
+	    font-size: 25px;
+	    text-align: center;
+	}
+	
+		.campoFormulario{
+			width: 100%;
+			padding: 1% 0;
+		}
+			
+			.labelFormulario{
+				display: inline-block;
+				width: 15%;
+			}
+			
+			.inputFormulario{
+				display: inline-block;
+				width: 66%;
+				margin-left: 10%;
+			}
+			
+				.inputFormulario input, textarea{
+					width: calc(96% - 4px);
+					border: 2px solid black;
+					padding: 2%;
+					font-size: 17px;
+				}
+				
+				#mensInputFormContacto{
+					margin-left: 11%;
+				}
+				
+				#mensLabelFormContacto{
+					float: left;
+					padding-top: 8.5%;
+				}
+			
+/* 			.checkCondiciones{ */
+/* 				text-align: center; */
+/* 			} */
+			
+			.checkCaptcha{
+				width: 54%;
+				margin: 0 auto;
+			}
+			
+			.enviarFormulario{
+				text-align: center;
+			}
+			
+			.enviarFormulario button{
+				width: 40%;
+				border: none;
+				background-color: black;
+				color: white;
+				font-size: 26px;
+				font-family: AmikoSemB;
+				padding: 1% 0;
+				cursor: pointer;
+			}
 
 #pruebaAltura{
 	height: 800px;	
