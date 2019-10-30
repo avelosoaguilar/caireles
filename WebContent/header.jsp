@@ -14,8 +14,8 @@
 			<div class="menuNavHeader">
 			<ul>
 				<li><a href="<%= request.getContextPath() %>/index.jsp">Inicio</a></li>
-				<li><a href="<%= request.getContextPath() %>/jsp/quienesSomos.jsp">Quiénes somos</a></li>
-				<li><a href="<%= request.getContextPath() %>/jsp/nuestrosServicios.jsp">Nuestros servicios</a></li>
+				<li><a href="<%= request.getContextPath() %>/jsp/quienesSomos.jsp">Quiénes somos <i class="fa fa-angle-down rotacion" aria-hidden="true"></i></a></li>
+				<li><a href="<%= request.getContextPath() %>/jsp/nuestrosServicios.jsp">Nuestros servicios <i class="fa fa-angle-down rotacion" aria-hidden="true"></i></a></li>
 				<li><a href="<%= request.getContextPath() %>/jsp/eventos.jsp">Eventos</a></li>
 				<li><a href="<%= request.getContextPath() %>/jsp/contacto.jsp">Contacto</a></li>
 			</ul>
